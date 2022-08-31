@@ -15,7 +15,6 @@ library(tsibbledata)
 library(ggplot2)
 library(feasts)
 library(tsibble)
-library(tsibble)
 
 #* @apiTitle Forecasting API
 #* 
