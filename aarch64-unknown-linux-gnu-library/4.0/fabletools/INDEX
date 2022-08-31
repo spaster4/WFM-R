@@ -1,0 +1,82 @@
+MAAPE                   Mean Arctangent Absolute Percentage Error
+MDA                     Directional accuracy measures
+ME                      Point estimate accuracy measures
+accuracy                Evaluate accuracy of a forecast or model
+agg_vec                 Create an aggregation vector
+aggregate_index         Expand a dataset to include temporal aggregates
+aggregate_key           Expand a dataset to include other levels of
+                        aggregation
+as_dable                Coerce to a dable object
+as_fable                Coerce to a fable object
+as_mable                Coerce a dataset to a mable
+augment.mdl_df          Augment a mable
+autoplot.dcmp_ts        Decomposition plots
+autoplot.fbl_ts         Plot a set of forecasts
+autoplot.tbl_ts         Plot time series from a tsibble
+bias_adjust             Bias adjust back-transformation functions
+bottom_up               Bottom up forecast reconciliation
+box_cox                 Box Cox Transformation
+combination_ensemble    Ensemble combination
+combination_model       Combination modelling
+combination_weighted    Weighted combination
+common_periods          Extract frequencies for common seasonal periods
+common_xregs            Common exogenous regressors
+components.mdl_df       Extract components from a fitted model
+construct_fc            Construct a new set of forecasts
+dable                   Create a dable object
+decomposition_model     Decomposition modelling
+distribution_var        Return distribution variable
+estimate                Estimate a model
+fable                   Create a fable object
+fabletools-package      fabletools: Core Tools for Packages in the
+                        'fable' Framework
+feature_set             Create a feature set from tags
+features                Extract features from a dataset
+features_by_pkg         Features by package
+features_by_tag         Features by tag
+fitted.mdl_df           Extract fitted values from models
+forecast                Produce forecasts
+generate.mdl_df         Generate responses from a mable
+glance.mdl_df           Glance a mable
+hypothesize.mdl_df      Run a hypothesis test from a mable
+interpolate.mdl_df      Interpolate missing values
+is_aggregated           Is the element an aggregation of smaller data
+is_dable                Is the object a dable
+is_fable                Is the object a fable
+is_mable                Is the object a mable
+is_model                Is the object a model
+mable                   Create a new mable
+mable_vars              Return model column variables
+middle_out              Middle out forecast reconciliation
+min_trace               Minimum trace forecast reconciliation
+model                   Estimate models
+model_lhs               Extract the left hand side of a model
+model_rhs               Extract the right hand side of a model
+model_sum               Provide a succinct summary of a model
+new_model_class         Create a new class of models
+new_specials            Create evaluation environment for specials
+new_transformation      Create a new modelling transformation
+outliers                Identify outliers
+parse_model             Parse the model specification for specials
+parse_model_lhs         Parse the RHS of the model formula for
+                        transformations
+parse_model_rhs         Parse the RHS of the model formula for specials
+percentile_score        Distribution accuracy measures
+reconcile               Forecast reconciliation
+refit.mdl_df            Refit a mable to a new dataset
+register_feature        Register a feature function
+report                  Report information about an object
+residuals.mdl_df        Extract residuals values from models
+response                Extract the response variable from a model
+response_vars           Return response variables
+scenarios               A set of future scenarios for forecasting
+skill_score             Forecast skill score measure
+special_xreg            Special for producing a model matrix of
+                        exogenous regressors
+stream                  Extend a fitted model with new data
+tidy.mdl_df             Extract model coefficients from a mable
+top_down                Top down forecast reconciliation
+traverse                Recursively traverse an object
+unpack_hilo             Unpack a hilo column
+validate_formula        Validate the user provided model
+winkler_score           Interval estimate accuracy measures

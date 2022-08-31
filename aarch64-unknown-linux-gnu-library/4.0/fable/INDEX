@@ -1,0 +1,82 @@
+AR                      Estimate a AR model
+ARIMA                   Estimate an ARIMA model
+CROSTON                 Croston's method
+ETS                     Exponential smoothing state space model
+MEAN                    Mean models
+NNETAR                  Neural Network Time Series Forecasts
+RW                      Random walk models
+THETA                   Theta method
+TSLM                    Fit a linear model with time series components
+VAR                     Estimate a VAR model
+breusch_godfrey         Breusch-Godfrey Test
+common_xregs            Common exogenous regressors
+components.ETS          Extract estimated states from an ETS model.
+fitted.AR               Extract fitted values from a fable model
+fitted.ARIMA            Extract fitted values from a fable model
+fitted.ETS              Extract fitted values from a fable model
+fitted.NNETAR           Extract fitted values from a fable model
+fitted.RW               Extract fitted values from a fable model
+fitted.TSLM             Extract fitted values from a fable model
+fitted.VAR              Extract fitted values from a fable model
+fitted.croston          Extract fitted values from a fable model
+fitted.fable_theta      Extract fitted values from a fable model
+fitted.model_mean       Extract fitted values from a fable model
+forecast.AR             Forecast a model from the fable package
+forecast.ARIMA          Forecast a model from the fable package
+forecast.ETS            Forecast a model from the fable package
+forecast.NNETAR         Forecast a model from the fable package
+forecast.RW             Forecast a model from the fable package
+forecast.TSLM           Forecast a model from the fable package
+forecast.VAR            Forecast a model from the fable package
+forecast.croston        Forecast a model from the fable package
+forecast.fable_theta    Forecast a model from the fable package
+forecast.model_mean     Forecast a model from the fable package
+generate.AR             Generate new data from a fable model
+generate.ARIMA          Generate new data from a fable model
+generate.ETS            Generate new data from a fable model
+generate.NNETAR         Generate new data from a fable model
+generate.RW             Generate new data from a fable model
+generate.TSLM           Generate new data from a fable model
+generate.model_mean     Generate new data from a fable model
+glance.AR               Glance a AR
+glance.ARIMA            Glance an ARIMA model
+glance.ETS              Glance an ETS model
+glance.NNETAR           Glance a NNETAR model
+glance.RW               Glance a lag walk model
+glance.TSLM             Glance a TSLM
+glance.VAR              Glance a VAR
+glance.fable_theta      Glance a theta method
+glance.model_mean       Glance a average method model
+interpolate.ARIMA       Interpolate missing values from a fable model
+interpolate.TSLM        Interpolate missing values from a fable model
+interpolate.model_mean
+                        Interpolate missing values from a fable model
+refit.AR                Refit an AR model
+refit.ARIMA             Refit an ARIMA model
+refit.ETS               Refit an ETS model
+refit.NNETAR            Refit a NNETAR model
+refit.RW                Refit a lag walk model
+refit.TSLM              Refit a 'TSLM'
+refit.model_mean        Refit a MEAN model
+residuals.AR            Extract residuals from a fable model
+residuals.ARIMA         Extract residuals from a fable model
+residuals.ETS           Extract residuals from a fable model
+residuals.NNETAR        Extract residuals from a fable model
+residuals.RW            Extract residuals from a fable model
+residuals.TSLM          Extract residuals from a fable model
+residuals.VAR           Extract residuals from a fable model
+residuals.croston       Extract residuals from a fable model
+residuals.fable_theta   Extract residuals from a fable model
+residuals.model_mean    Extract residuals from a fable model
+tidy.AR                 Tidy a fable model
+tidy.ARIMA              Tidy a fable model
+tidy.ETS                Tidy a fable model
+tidy.NNETAR             Tidy a fable model
+tidy.RW                 Tidy a fable model
+tidy.TSLM               Tidy a fable model
+tidy.VAR                Tidy a fable model
+tidy.croston            Tidy a fable model
+tidy.fable_theta        Tidy a fable model
+tidy.model_mean         Tidy a fable model
+unitroot_options        Options for the unit root tests for order of
+                        integration

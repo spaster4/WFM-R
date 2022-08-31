@@ -1,0 +1,207 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>R: Forecasting Models for Tidy Time Series</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="R.css" />
+</head><body>
+<h1> Forecasting Models for Tidy Time Series
+<img class="toplogo" src="../../../doc/html/Rlogo.svg" alt="[R logo]" />
+</h1>
+<hr/>
+<div style="text-align: center;">
+<a href="../../../doc/html/packages.html"><img class="arrow" src="../../../doc/html/left.jpg" alt="[Up]" /></a>
+<a href="../../../doc/html/index.html"><img class="arrow" src="../../../doc/html/up.jpg" alt="[Top]" /></a>
+</div><h2>Documentation for package &lsquo;fable&rsquo; version 0.3.1</h2>
+
+<ul><li><a href="../DESCRIPTION">DESCRIPTION file</a>.</li>
+<li><a href="../doc/index.html">User guides, package vignettes and other documentation.</a></li>
+</ul>
+
+<h2>Help Pages</h2>
+
+
+<table width="100%">
+<tr><td style="width: 25%;"><a href="AR.html">AR</a></td>
+<td>Estimate a AR model</td></tr>
+<tr><td style="width: 25%;"><a href="ARIMA.html">ARIMA</a></td>
+<td>Estimate an ARIMA model</td></tr>
+<tr><td style="width: 25%;"><a href="breusch_godfrey.html">breusch_godfrey</a></td>
+<td>Breusch-Godfrey Test</td></tr>
+<tr><td style="width: 25%;"><a href="breusch_godfrey.html">breusch_godfrey.TSLM</a></td>
+<td>Breusch-Godfrey Test</td></tr>
+<tr><td style="width: 25%;"><a href="common_xregs.html">common_xregs</a></td>
+<td>Common exogenous regressors</td></tr>
+<tr><td style="width: 25%;"><a href="components.ETS.html">components.ETS</a></td>
+<td>Extract estimated states from an ETS model.</td></tr>
+<tr><td style="width: 25%;"><a href="CROSTON.html">CROSTON</a></td>
+<td>Croston's method</td></tr>
+<tr><td style="width: 25%;"><a href="ETS.html">ETS</a></td>
+<td>Exponential smoothing state space model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.AR.html">fitted.AR</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.ARIMA.html">fitted.ARIMA</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.croston.html">fitted.croston</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.ETS.html">fitted.ETS</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.fable_theta.html">fitted.fable_theta</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.model_mean.html">fitted.model_mean</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.NNETAR.html">fitted.NNETAR</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.RW.html">fitted.RW</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.TSLM.html">fitted.TSLM</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="fitted.VAR.html">fitted.VAR</a></td>
+<td>Extract fitted values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.AR.html">forecast.AR</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.ARIMA.html">forecast.ARIMA</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.croston.html">forecast.croston</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.ETS.html">forecast.ETS</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.fable_theta.html">forecast.fable_theta</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.model_mean.html">forecast.model_mean</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.NNETAR.html">forecast.NNETAR</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.RW.html">forecast.RW</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.TSLM.html">forecast.TSLM</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="forecast.VAR.html">forecast.VAR</a></td>
+<td>Forecast a model from the fable package</td></tr>
+<tr><td style="width: 25%;"><a href="generate.AR.html">generate.AR</a></td>
+<td>Generate new data from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="generate.ARIMA.html">generate.ARIMA</a></td>
+<td>Generate new data from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="generate.ETS.html">generate.ETS</a></td>
+<td>Generate new data from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="generate.model_mean.html">generate.model_mean</a></td>
+<td>Generate new data from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="generate.NNETAR.html">generate.NNETAR</a></td>
+<td>Generate new data from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="generate.RW.html">generate.RW</a></td>
+<td>Generate new data from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="generate.TSLM.html">generate.TSLM</a></td>
+<td>Generate new data from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="glance.AR.html">glance.AR</a></td>
+<td>Glance a AR</td></tr>
+<tr><td style="width: 25%;"><a href="glance.ARIMA.html">glance.ARIMA</a></td>
+<td>Glance an ARIMA model</td></tr>
+<tr><td style="width: 25%;"><a href="glance.ETS.html">glance.ETS</a></td>
+<td>Glance an ETS model</td></tr>
+<tr><td style="width: 25%;"><a href="glance.fable_theta.html">glance.fable_theta</a></td>
+<td>Glance a theta method</td></tr>
+<tr><td style="width: 25%;"><a href="glance.model_mean.html">glance.model_mean</a></td>
+<td>Glance a average method model</td></tr>
+<tr><td style="width: 25%;"><a href="glance.NNETAR.html">glance.NNETAR</a></td>
+<td>Glance a NNETAR model</td></tr>
+<tr><td style="width: 25%;"><a href="glance.RW.html">glance.RW</a></td>
+<td>Glance a lag walk model</td></tr>
+<tr><td style="width: 25%;"><a href="glance.TSLM.html">glance.TSLM</a></td>
+<td>Glance a TSLM</td></tr>
+<tr><td style="width: 25%;"><a href="glance.VAR.html">glance.VAR</a></td>
+<td>Glance a VAR</td></tr>
+<tr><td style="width: 25%;"><a href="interpolate.ARIMA.html">interpolate.ARIMA</a></td>
+<td>Interpolate missing values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="interpolate.model_mean.html">interpolate.model_mean</a></td>
+<td>Interpolate missing values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="interpolate.TSLM.html">interpolate.TSLM</a></td>
+<td>Interpolate missing values from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="MEAN.html">MEAN</a></td>
+<td>Mean models</td></tr>
+<tr><td style="width: 25%;"><a href="RW.html">NAIVE</a></td>
+<td>Random walk models</td></tr>
+<tr><td style="width: 25%;"><a href="NNETAR.html">NNETAR</a></td>
+<td>Neural Network Time Series Forecasts</td></tr>
+<tr><td style="width: 25%;"><a href="refit.AR.html">refit.AR</a></td>
+<td>Refit an AR model</td></tr>
+<tr><td style="width: 25%;"><a href="refit.ARIMA.html">refit.ARIMA</a></td>
+<td>Refit an ARIMA model</td></tr>
+<tr><td style="width: 25%;"><a href="refit.ETS.html">refit.ETS</a></td>
+<td>Refit an ETS model</td></tr>
+<tr><td style="width: 25%;"><a href="refit.model_mean.html">refit.model_mean</a></td>
+<td>Refit a MEAN model</td></tr>
+<tr><td style="width: 25%;"><a href="refit.NNETAR.html">refit.NNETAR</a></td>
+<td>Refit a NNETAR model</td></tr>
+<tr><td style="width: 25%;"><a href="refit.RW.html">refit.RW</a></td>
+<td>Refit a lag walk model</td></tr>
+<tr><td style="width: 25%;"><a href="refit.TSLM.html">refit.TSLM</a></td>
+<td>Refit a 'TSLM'</td></tr>
+<tr><td style="width: 25%;"><a href="AR.html">report.AR</a></td>
+<td>Estimate a AR model</td></tr>
+<tr><td style="width: 25%;"><a href="ARIMA.html">report.ARIMA</a></td>
+<td>Estimate an ARIMA model</td></tr>
+<tr><td style="width: 25%;"><a href="ETS.html">report.ETS</a></td>
+<td>Exponential smoothing state space model</td></tr>
+<tr><td style="width: 25%;"><a href="MEAN.html">report.model_mean</a></td>
+<td>Mean models</td></tr>
+<tr><td style="width: 25%;"><a href="NNETAR.html">report.NNETAR</a></td>
+<td>Neural Network Time Series Forecasts</td></tr>
+<tr><td style="width: 25%;"><a href="RW.html">report.RW</a></td>
+<td>Random walk models</td></tr>
+<tr><td style="width: 25%;"><a href="TSLM.html">report.TSLM</a></td>
+<td>Fit a linear model with time series components</td></tr>
+<tr><td style="width: 25%;"><a href="VAR.html">report.VAR</a></td>
+<td>Estimate a VAR model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.AR.html">residuals.AR</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.ARIMA.html">residuals.ARIMA</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.croston.html">residuals.croston</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.ETS.html">residuals.ETS</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.fable_theta.html">residuals.fable_theta</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.model_mean.html">residuals.model_mean</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.NNETAR.html">residuals.NNETAR</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.RW.html">residuals.RW</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.TSLM.html">residuals.TSLM</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="residuals.VAR.html">residuals.VAR</a></td>
+<td>Extract residuals from a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="RW.html">RW</a></td>
+<td>Random walk models</td></tr>
+<tr><td style="width: 25%;"><a href="RW.html">SNAIVE</a></td>
+<td>Random walk models</td></tr>
+<tr><td style="width: 25%;"><a href="THETA.html">THETA</a></td>
+<td>Theta method</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.AR.html">tidy.AR</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.ARIMA.html">tidy.ARIMA</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.croston.html">tidy.croston</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.ETS.html">tidy.ETS</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.fable_theta.html">tidy.fable_theta</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.model_mean.html">tidy.model_mean</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.NNETAR.html">tidy.NNETAR</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.RW.html">tidy.RW</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.TSLM.html">tidy.TSLM</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="tidy.VAR.html">tidy.VAR</a></td>
+<td>Tidy a fable model</td></tr>
+<tr><td style="width: 25%;"><a href="TSLM.html">TSLM</a></td>
+<td>Fit a linear model with time series components</td></tr>
+<tr><td style="width: 25%;"><a href="unitroot_options.html">unitroot_options</a></td>
+<td>Options for the unit root tests for order of integration</td></tr>
+<tr><td style="width: 25%;"><a href="VAR.html">VAR</a></td>
+<td>Estimate a VAR model</td></tr>
+</table>
+</body></html>

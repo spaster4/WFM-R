@@ -1,0 +1,15 @@
+default:
+  # local-only configuration
+  spark.env.SPARK_LOCAL_IP.local: 127.0.0.1
+
+  # include the embedded csv package for spark 1.x
+  sparklyr.connect.csv.embedded: "^1.*"
+
+  # default spark packages to load
+  # sparklyr.defaultPackages:
+
+  # command line arguments to spark-shell
+  # sparklyr.shell.*
+
+  # Enable 'from_utc_timestamp' and 'to_utc_timestamp' for spark 3.0 and later
+  spark.sql.legacy.utcTimestampFunc.enabled: true
